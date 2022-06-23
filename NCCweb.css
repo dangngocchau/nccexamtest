@@ -1,0 +1,87 @@
+body {
+  display: flex;
+  margin: unset;
+  /* width: 100vw; */
+  height: 100vh;
+}
+.leftSide {
+  width: 10%;
+  background-color: #191718;
+  height: 100vh;
+}
+.leftSide > ul {
+  padding: unset;
+  margin: unset;
+  color: #aaaaaa;
+  list-style-type: none;
+}
+.leftSide > ul > li {
+  padding: 11px 5px;
+  border-bottom: 1px solid #5c5c5c;
+  transition: all 0.2s linear;
+}
+.leftSide > ul > li:hover {
+  background-color: #5c5c5c;
+  color: white;
+}
+.rightSide {
+  width: 90%;
+  overflow-x: hidden;
+  /* margin-bottom: 50px; */
+}
+.rightSide > .container {
+  margin-bottom: 100px;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.logo {
+  width: 40%;
+  margin: 0 auto;
+}
+.logo > img {
+  width: 100%;
+  object-fit: cover;
+}
+.title1 {
+  text-align: center;
+  background-color: #efefef;
+  padding: 30px 50px;
+}
+.title1 > h1 {
+  font-weight: 700;
+  font-size: 18px;
+}
+.title1 > p {
+  padding: 0 50px;
+  line-height: 18.75px;
+}
+.box {
+  display: flex;
+}
+.box > .boxMain {
+  width: calc((100% / 3));
+}
+.box > .boxMain:not(:first-child) {
+  margin-left: 50px;
+}
+.box > .boxMain > h1 {
+  font-weight: 700;
+  font-size: 24px;
+}
+.box > .boxMain > .boxImg {
+  display: flex;
+}
+.box > .boxMain > .boxImg > img {
+  width: 45%;
+  height: 45%;
+}
+.box > .boxMain > .boxImg > p {
+  margin: unset;
+  padding-left: 10px;
+}
+.footer {
+  padding: 20px 0;
+  border-top: 1px solid #dedede;
+}
